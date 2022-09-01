@@ -1,0 +1,48 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* COMMON */
+html{
+    font-family: 'Fredoka', sans-serif;
+    font-size: 100%;
+}
+
+.container{
+    width: 70%;
+    margin: 0 auto;
+}
+
+h1,p{
+    text-align: center;
+    padding-top: 1.3em;
+}
+
+h1{
+    color: #e53170;
+}
+
+.col{
+    width: calc(100% / 3);
+    float: left;
+    background-color: ;
+    
+}
+
+
+
+/* .clearfix{
+    content: "";
+    display: table;
+    clear: both;
+
+} */
+
+
+
+.email{
+    color: #4dccf2;
+}
