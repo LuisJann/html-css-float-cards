@@ -33,12 +33,6 @@ h1{
      
 }
 
-.clearfix::after {
-    content: "";
-    display: table;
-    clear: left;
-}
-
 img{
     width: 100%;
 
