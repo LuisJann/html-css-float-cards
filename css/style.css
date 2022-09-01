@@ -28,20 +28,14 @@ h1{
 .col{
     width: calc(100% / 3);
     float: left;
-    background-color: ;
-    
+    padding-top: 10px;
+     
 }
 
-
-
-/* .clearfix{
-    content: "";
-    display: table;
-    clear: both;
-
-} */
-
-
+img{
+    width: 100%;
+    
+}
 
 .email{
     color: #4dccf2;
