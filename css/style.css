@@ -12,7 +12,7 @@ html{
 }
 
 .container{
-    width: 80%;
+    width: 60%;
     margin: 0 auto;
     font-size: small;
 }
@@ -26,15 +26,26 @@ h1{
     color: #e53170;
 }
 
-.col > img{
-        width: calc(100% / 3);
-        padding: 0 .8em;
+.col{
+    width: calc(100% / 3 - 3em); 
+    margin-right: 1.5em; 
+    margin-top: 1em; 
+    float: left; 
+    color: white; 
+    background-color: rgb(15 14 23); 
+    box-shadow: 4px 4px 4px black;  
 }
 
 img{
-    float: left;
+    width: 70px;
 }
 
 .email{
     color: #4dccf2;
 }
+
+.name{
+    display: inline-block;
+    padding: .8em;
+}
+
